@@ -11,5 +11,5 @@
 |MENOR QUE 18.5		  |  MAGREZA			    | 0|
 |ENTRE 18.5 E 24.9	|  NORMAL				    | 0|
 |ENTRE 25.0 E 29.9	|  SOBREPESO			  |	1|
-|ENTRE 30. E 39.9		|  OBESIDADE			  |	2|
+|ENTRE 30.0 E 39.9		|  OBESIDADE			  |	2|
 |MAIOR QUE 40.0			    |  OBESIDADE GRAVE	|	3|
