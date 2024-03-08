@@ -1,0 +1,164 @@
+head
+  style.
+
+    .body {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .dados {
+    background-color: #61759A;
+    color: #ffffff;
+    }
+    .dados_calculo {
+    margin-left: 5%;
+    font-size: 24px;
+    }
+    .nome {
+    background-color: #F5F5F5;
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 5px;
+    }
+    .nome>p {
+    font-weight: bold;
+    margin-left: 5px;
+    }
+    .input {
+    display: inline-block;
+    background-color: #F5F5F5;
+    width: 350px;
+    }
+    .input>p {
+    margin-left: 10px;
+    }
+    .imc {
+    background-color: #FFFFFF;
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    }
+    .imc_input_magreza {
+    display: inline-block;
+    background-color: #93B4D5;
+    width: 350px;
+    height: 100px;
+    margin-left: 10px;
+    }
+    .imc_input_normal {
+    display: inline-block;
+    background-color: #8FC5A2;
+    width: 350px;
+    height: 100px;
+    margin-left: 10px;
+    }
+    .imc_input_sobrepeso {
+    display: inline-block;
+    background-color: #F9D45A;
+    width: 350px;
+    height: 100px;
+    margin-left: 10px;
+    }
+    .imc_input_obesidade {
+    display: inline-block;
+    background-color: #E59762;
+    width: 350px;
+    height: 100px;
+    margin-left: 10px;
+    }
+    .imc_input_grave {
+    display: inline-block;
+    background-color: #D85C59;
+    width: 350px;
+    height: 100px;
+    margin-left: 10px;
+    }
+    .imc_input_magreza > p {
+    margin-left: 10px;
+    }
+    .imc_input_normal > p {
+    margin-left: 10px;
+    }
+    .imc_input_sobrepeso > p {
+    margin-left: 10px;
+    }
+    .imc_input_obesidade > p {
+    margin-left: 10px;
+    }
+    .imc_input_grave > p {
+    margin-left: 10px;
+    }
+    .rodape {
+    margin-left: 200px;
+    }
+
+
+br
+br
+h1
+.dados
+  p.dados_calculo Ficha de acompanhamento
+br
+div
+  .nome
+    p Nome: 
+  .input
+    p {{dados["nome"]}}
+div
+  .nome
+    p Idade: 
+  .input
+    p {{dados["idade"]}}
+div
+  .nome
+    p Peso: 
+  .input
+    p {{dados["peso"]}}
+div
+  .nome
+    p Altura: 
+  .input
+    p {{dados["altura"]}}
+div
+  .nome
+    p C&aacute;lculo IMC: 
+  .input
+    p {{dados["imc"]}}
+if dados["status"].lower()=='magreza'
+  div
+  .imc
+    p IMC = &iacute;ndice de massa corporal 
+  .imc_input_magreza
+    p ATENÇÃO: seu IMC está abaixo do normal! 
+    p Obesidade grau 0!
+
+if dados["status"].lower()=='normal'
+  div
+  .imc
+    p IMC = &iacute;ndice de massa corporal 
+  .imc_input_normal
+    p PARABÉNS: seu IMC está normal! 
+    p Obesidade grau 0!
+
+if dados["status"].lower()=='sobrepeso'
+  div
+  .imc
+    p IMC = &iacute;ndice de massa corporal 
+  .imc_input_sobrepeso
+    p ATENÇÃO: seu IMC está acima do normal! 
+    p Obesidade grau 1!
+
+if dados["status"].lower()=='obesidade'
+  div
+  .imc
+    p IMC = &iacute;ndice de massa corporal 
+  .imc_input_obesidade
+    p ATENÇÃO: seu IMC está acima do sobrepeso!
+    p Obesidade grau 2!
+
+if dados["status"].lower()=='obesidade grave'
+  div
+  .imc
+    p IMC = &iacute;ndice de massa corporal 
+  .imc_input_grave
+    p ATENÇÃO: seu IMC está muito alto! 
+    p Obesidade grau 3!
