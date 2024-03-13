@@ -15,10 +15,10 @@
 |ENTRE 30.0 E 39.9		|  OBESIDADE			  |	2|
 |MAIOR QUE 40.0			    |  OBESIDADE GRAVE	|	3|
 
-<<<<<<< HEAD
-[<img src=".\Animação.gif" alt="Código funcionando">]
-=======
 O primeiro código tem como finalidade interagir com o usuário para que ele digite seus dados e a calculadora gere o resultado do IMC, depois a forma como ele é calculado e uma função que mostra a classificação do usuário referente a tabela de IMC.
+
+<img src=".\Animação.gif" alt="Código funcionando" width="600px" heidth="600px">
+
 1.	Entrada de dados:
 ````python
 nome = input('Digite o seu nome: ')
@@ -58,4 +58,3 @@ pdf_reports
  - Python
 	
 - Google Colaboratory
->>>>>>> 7c96b2c4a2e8e5219da8b16ecafce96f4920b77c
