@@ -17,7 +17,7 @@
 
 O primeiro código tem como finalidade interagir com o usuário para que ele digite seus dados e a calculadora gere o resultado do IMC, depois a forma como ele é calculado e uma função que mostra a classificação do usuário referente a tabela de IMC.
 
-<img src=".\Animação.gif" alt="Código funcionando" width="600px" heidth="600px">
+<img src=".\Animação.gif" alt="Código funcionando" width="600px" heidth="400px">
 
 1.	Entrada de dados:
 ````python
