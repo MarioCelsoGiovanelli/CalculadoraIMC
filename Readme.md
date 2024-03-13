@@ -13,3 +13,5 @@
 |ENTRE 25.0 E 29.9	|  SOBREPESO			  |	1|
 |ENTRE 30.0 E 39.9		|  OBESIDADE			  |	2|
 |MAIOR QUE 40.0			    |  OBESIDADE GRAVE	|	3|
+
+[<imag src="C:\Users\mcels\Downloads\Python\EMPOWERDATA\01_PRIMEIROS PASSOS\BusinessCase\CalculadoraIMC\Animação.gif">]
