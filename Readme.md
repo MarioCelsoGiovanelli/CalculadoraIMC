@@ -1,11 +1,11 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-# Calculadora de IMC
+# :abacus: Calculadora de IMC
 <dl>
 <dd>IMC é a sigla para índice de massa corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.</dd>
 <dd>O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18.5 e 24.9.</dd>
 </dl>
 	
-## Veja a interpretação do IMC:
+## :weight_lifting_man: Veja a interpretação do IMC:
 
 | IMC			          | CLASSIFICAÇÃO			| OBESIDADE (GRAU)|
 |-------------------|:-----------------:|----------------:|
@@ -16,6 +16,8 @@
 |MAIOR QUE 40.0			    |  OBESIDADE GRAVE	|	3|
 
 O primeiro código tem como finalidade interagir com o usuário para que ele digite seus dados e a calculadora gere o resultado do IMC, depois a forma como ele é calculado e uma função que mostra a classificação do usuário referente a tabela de IMC.
+
+:movie_camera:
 
 <img src=".\Animação.gif" alt="Código funcionando" width="600px" heidth="400px">
 
@@ -49,12 +51,16 @@ No final um código que vai gerar um arquivo em formato pdf, utilizando um templ
 pdf_reports.write_report(template, "ficha_aluno.pdf", use_default_styling=False)
 ````
 
-## Técnicas e Tecnologias utilizadas:
+## :computer: Técnicas e Tecnologias utilizadas:
+- Converter tipos de dados
+- Juntar texto com váriaveis
 
-### Bibliotecas:
+ 	- Python
+	
+	- Google Colaboratory
+
+### :books:  Bibliotecas:
 pdf_reports
 
 
- - Python
-	
-- Google Colaboratory
+
