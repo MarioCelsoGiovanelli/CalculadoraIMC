@@ -1,4 +1,4 @@
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Badge Concluido](http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUIDO&color=GREEN&style=for-the-badge)
 # :abacus: Calculadora de IMC
 <dl>
 <dd>IMC é a sigla para índice de massa corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.</dd>
@@ -60,8 +60,6 @@ pdf_reports.write_report(template, "ficha_aluno.pdf", use_default_styling=False)
 - Converter tipos de dados
 - Juntar texto com váriaveis
 - Estrutura condicional **if** - **elif**
-
- 	- Python
 	
 	- Google Colaboratory
 
