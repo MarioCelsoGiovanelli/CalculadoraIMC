@@ -41,6 +41,11 @@ nome = input('Digite o seu nome: ')
 peso = float(input('Digite o seu peso: '))
 altura = float(input('Digite a sua altura: '))
 imc = round(peso / (altura**2),2)
+````
+
+Para juntar textos com os dados de uma variável, podemos utilizar os **textos formatados**.
+Basta utilizar um **f** antes das aspas do texto e colocar a variável dentro de **chaves**
+````python
 print(f"{nome} está com o IMC de {imc}!")
 ````
 
@@ -54,6 +59,7 @@ pdf_reports.write_report(template, "ficha_aluno.pdf", use_default_styling=False)
 ## :computer: Técnicas e Tecnologias utilizadas:
 - Converter tipos de dados
 - Juntar texto com váriaveis
+- Estrutura condicional **if** - **elif**
 
  	- Python
 	
